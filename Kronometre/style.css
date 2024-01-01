@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0,  0%,90%);
+
+}
+#myH1{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(59, 55, 55);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: white;
+}
+#display{
+        font-size: 4.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: hsl(0, 0%, 30%);
+        
+        margin-bottom: 25px;
+
+}
+#controls button{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    min-width: 125px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5 ease;
+}
+#startBtn{
+    background-color: rgb(23, 154, 23);
+}
+#startBtn:hover{
+    background-color: rgb(53, 167, 53);
+}
+
+#stoptBtn{
+    background-color: rgb(186, 14, 5);
+}
+#stoptBtn:hover{
+    background-color: rgb(187, 54, 46);
+}
+#resetBtn{
+    background-color: rgb(23, 23, 154);
+}
+#resetBtn:hover{
+    background-color: rgb(68, 60, 179);
+}
